@@ -4,7 +4,7 @@ export default createGlobalStyle`
     html{
         max-height: 100%;
         max-width: 100%;
-        font-family: arial;
+        font-family: 'Montserrat', sans-serif;
     }
 
     body{

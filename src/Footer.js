@@ -38,7 +38,7 @@ const FooterInput = styled.input`
     }
 `
 const FooterButton = styled.button`
-  background: #5f5f5f;
+  background: black;
   border: none;
   color: #fafafa;
   font-size: 1.4em;
