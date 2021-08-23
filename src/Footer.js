@@ -13,9 +13,10 @@ const FooterWrapper = styled.div`
     grid-template-areas: 
         "footerTitle footerTitle footerTitle"
         "footerForm footerImage footerContact"; 
-    width: 99%; 
-    height: 99%;
+    box-sizing: border-box;
     margin: 0px 5px;
+    background-color: #fafafa;
+    color: black;
 `
 const FooterTitle = styled.div`
     grid-area: footerTitle;

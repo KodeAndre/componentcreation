@@ -3,8 +3,6 @@ import { createGlobalStyle } from 'styled-components';
 export default createGlobalStyle`
     html{
         max-height: 100%;
-        height: 100%;
-        width: 100%;
         max-width: 100%;
         font-family: arial;
     }
