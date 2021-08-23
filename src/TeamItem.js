@@ -8,8 +8,8 @@ import TeamList from "./TeamList"
 const TeamImg = styled.img`
   grid-area: TeamImg;
   border-radius: 100%;
-  width: 150px;
-  height: 150px;
+  width: 125px;
+  height: 125px;
 `
 
 const TeamName = styled.h3`
