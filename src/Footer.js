@@ -20,6 +20,7 @@ const FooterWrapper = styled.div`
 const FooterTitle = styled.div`
     grid-area: footerTitle;
     text-align: center;
+    letter-spacing: 4px;
 `
 const FooterForm = styled.div`
     grid-area: footerForm;
@@ -57,11 +58,9 @@ const FooterContact = styled.div`
 const FooterContactInfo = styled.div`
     grid-area: FooterContactInfo;
 `
-
 const FCA = styled.div`
     line-height: 4px;
 `
-
 const FooterLink = styled.a`
     color: #fafafa;
 `
