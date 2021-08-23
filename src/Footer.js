@@ -14,7 +14,6 @@ const FooterWrapper = styled.div`
         "footerTitle footerTitle footerTitle"
         "footerForm footerImage footerContact"; 
     box-sizing: border-box;
-    margin: 0px 5px;
     background-color: #fafafa;
     color: black;
 `
@@ -52,6 +51,7 @@ const FooterContactWrapper = styled.div`
     grid-area: footerContact;
     justify-self: end;
     text-align: end;
+    margin-right: 10px;
 `
 const FooterContact = styled.div`
     display: grid;
