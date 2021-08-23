@@ -16,6 +16,7 @@ const TeamName = styled.h3`
   grid-area: TeamName;
   text-align: center;
   font-weight: 600;
+  color: black;
 `
 
 export default function TeamItem(props) {

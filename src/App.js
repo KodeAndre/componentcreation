@@ -9,8 +9,8 @@ export default function App() {
   return (
     <div>
       <GlobalStyles />
-        {/* <Footer /> */}
         <Team />
+        <Footer />
     </div>
   );
 }

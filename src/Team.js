@@ -17,7 +17,8 @@ const TeamWrapper = styled.div`
   grid-template-areas: 
     "Team TeamTitle"; 
   width: 100%; 
-  height: 100%; 
+  height: 100%;
+  background-color: #fafafa;
 `
 
 const Team = styled.div`
@@ -36,6 +37,7 @@ const TeamTitle = styled.h2`
   align-self: center; 
   grid-area: TeamTitle;
   font-weight: 600;
+  color: black;
 `
 
 export default function Cards(props) {

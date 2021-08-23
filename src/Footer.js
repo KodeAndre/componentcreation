@@ -41,7 +41,8 @@ const FooterButton = styled.button`
   background: black;
   border: none;
   color: #fafafa;
-  font-size: 1.4em;
+  font-size: 1em;
+  padding: 5px 15px;
 `
 const FooterImage = styled.div`
     grid-area: footerImage;
