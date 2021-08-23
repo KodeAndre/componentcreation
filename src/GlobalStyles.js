@@ -17,5 +17,10 @@ export default createGlobalStyle`
 
     hr {
         width: 15rem;
+        height: 2px;
+        border-top: solid black 2px;
+        border-bottom: none;
+        border-left: none;
+        border-right: none;
     }
 `

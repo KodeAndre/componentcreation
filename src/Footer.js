@@ -27,11 +27,16 @@ const FooterForm = styled.div`
     grid-area: footerForm;
     justify-self: start;
     display: flex;
+    margin-left: 10px;
 `
 const FooterInput = styled.input`
     background: none;
     border: none;
     width: 15rem;
+
+    &:focus {
+        outline: none;
+    }
 `
 const FooterButton = styled.button`
   background: #5f5f5f;
@@ -63,7 +68,7 @@ const FCA = styled.div`
     line-height: 4px;
 `
 const FooterLink = styled.a`
-    color: #fafafa;
+    color: black;
 `
 
 export default function Footer() {
@@ -77,16 +82,16 @@ export default function Footer() {
 
                 <FooterForm>
                     <form>
-                        <h3>Fullt Navn</h3>
-                        <FooterInput type="text" placeholder="Fullt Navn" />
+                        <h3 for="name">Fullt Navn</h3>
+                        <FooterInput name="name" type="text" placeholder="Skriv Her..." />
                         <hr />
-                        <h3>Email</h3>
-                        <FooterInput type="text" placeholder="Email" />
+                        <h3 for="email">Email</h3>
+                        <FooterInput name="email" type="text" placeholder="Skriv Her..." />
                         <hr />
-                        <h3>Skriv Melding</h3>
-                        <FooterInput type="text" placeholder="Skriv Melding" />
+                        <h3 for="message">Skriv Melding</h3>
+                        <FooterInput name="message" type="text" placeholder="Skriv Her..." />
                         <hr />
-                        <FooterButton type="submit" id="submitBtn">Lever</FooterButton>
+                        <FooterButton type="submit" value="submit" id="submitBtn">Lever</FooterButton>
                     </form>
                 </FooterForm>
 
