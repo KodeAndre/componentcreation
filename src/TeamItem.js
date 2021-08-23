@@ -11,7 +11,6 @@ const TeamImg = styled.img`
   width: 125px;
   height: 125px;
 `
-
 const TeamName = styled.h3`
   grid-area: TeamName;
   text-align: center;
