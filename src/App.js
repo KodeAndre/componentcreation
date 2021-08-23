@@ -1,11 +1,13 @@
-import './App.css';
+// eslint-disable-next-line
+import GlobalStyles from './GlobalStyles.js'
 
-function App() {
+import Footer from './Footer'
+
+export default function App() {
   return (
-    <div className="App">
-      <p>lol</p>
+    <div>
+      <GlobalStyles />
+        <Footer />
     </div>
   );
 }
-
-export default App;
