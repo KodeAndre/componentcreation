@@ -11,7 +11,7 @@ export default function App() {
   return (
     <div>
       <GlobalStyles />
-      <TopNav />
+        <TopNav />
         <Team />
         <Footer />
     </div>
