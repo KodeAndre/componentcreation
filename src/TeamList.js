@@ -26,15 +26,15 @@ export default [
     image: "https://picsum.photos/0/0"
 }, {
     id: "7",
-    name: "Pål",
+    name: "Per",
     image: "https://picsum.photos/0/0"
 }, {
     id: "8",
-    name: "Pål",
+    name: "Askeladden",
     image: "https://picsum.photos/0/0"
 }, {
     id: "9",
-    name: "Pål",
+    name: "Aleks",
     image: "https://picsum.photos/0/0"
 },
 ]
