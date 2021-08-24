@@ -18,11 +18,12 @@ gap: 0px 0px;
 grid-template-areas:
   "NavWrapperLeft NavWrapperRight";
 width: 100%;
-height: ${props => props.theme.height};
+height: ${props => props.theme.nav.height};
 background-color: #BF86D9;
 color: black;
 top: 0;
 position: sticky;
+margin-bottom: 10px;
 `
 
 let NavWrapperLeft = styled.div`
@@ -36,14 +37,16 @@ grid-template-rows: 1fr;
 gap: 0px 0px; 
 grid-template-areas: 
   "NavLogo ."; 
-height: ${props => props.theme.height};
+height: ${props => props.theme.nav.height};
 align-items: center;
 `
 
 const NavLogo = styled.img`
 grid-area: NavLogo;
-width: 250px;
-height: ${props => props.theme.height};;
+width: ${props => props.theme.nav.width};
+height: ${props => props.theme.image.height};
+justify-self: center; 
+align-self: center;
 `
 
 let NavWrapperRight = styled.div`
@@ -57,18 +60,30 @@ grid-template-rows: 1fr;
 gap: 0px 0px; 
 grid-template-areas: 
   ". . . . . ."; 
-height: ${props => props.theme.height};
+height: ${props => props.theme.nav.height};
 align-items: center;
 text-align: center;
 `
     let wrapperTheme =
-  {
-    height:'150px',
-  }
+    {
+      nav: {
+        height:'150px',
+      },
+      image: {
+        height: '125px',
+        width: '250px',
+      }
+    }
 
   let wrapperThemeScrolled = 
   {
-    height:'100px',
+    nav: {
+      height:'100px',
+    },
+    image: {
+      height: '75px',
+      width: '150px',
+    }
   }
 
 export default function Navbar() {
